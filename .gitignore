@@ -1,0 +1,53 @@
+# Python bytecode
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Virtual Environment (if using)
+venv/
+env/
+.venv/
+
+# Flask-related files
+instance/
+*.sqlite
+*.db
+*.log
+
+# Docker related files
+*.env
+docker-compose.override.yml
+
+# IDE or Editor settings
+.vscode/
+.idea/
+
+# OS-specific files
+.DS_Store    # macOS
+Thumbs.db    # Windows
+
+# OpenCV temporary files
+*.jpg
+*.png
+
+# Environment variables (for sensitive data)
+.env
+
+# Migrations (if using Flask-Migrate or Alembic)
+migrations/
+
+# Coverage reports (if using code coverage tools)
+coverage/
+*.cover
+*.tox
+
+# Jupyter Notebook checkpoints (if using Jupyter)
+.ipynb_checkpoints/
+
+# Flask run/debug logs
+*.log
+
+# Other temporary files
+*.bak
+*.swp
